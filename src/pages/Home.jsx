@@ -1,3 +1,5 @@
+home.jsx
+
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import BookCard from "../components/BookCard";
@@ -35,7 +37,13 @@ export default function Home() {
       </div>
 
       {/* POPULAR BOOKS */}
-     
+      <h2 style={{ marginBottom: "15px" }}>🔥 Popular Books</h2>
+
+      <div className="grid">
+        {popularBooks.map((book) => (
+          <BookCard key={book.id} book={book} />
+        ))}
+      </div>
 
     </div>
   );
