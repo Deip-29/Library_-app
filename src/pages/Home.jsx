@@ -1,5 +1,3 @@
-home.jsx
-
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import BookCard from "../components/BookCard";
