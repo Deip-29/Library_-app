@@ -158,3 +158,38 @@ input:focus {
 }
 
 
+/* BUTTON */
+button {
+  background: #4f46e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* DETAILS */
+.details {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+}
+
+/* 404 */
+.notfound {
+  text-align: center;
+  margin-top: 100px;
+}
